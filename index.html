@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,176 +10,230 @@
     <title>XYZcompany</title>
 </head>
 <body>
-    <section id="header">
-        <div class="title">
-            <p>XYZcompany</p>
-        </div>
-        <div class="container">
-            <nav>
+    <header>
+        <nav>
+            <h1>XYZCOMPANY</h1>
+            <div class="navlinks" id="navlink">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
                 <ul>
-                    <a href="#" class="selected"><li>HOME</li></a>
-                    <a href="#about"><li>ABOUT</li></a>
-                    <a href="#bar-info"><li>SERVICES</li></a>
-                    <a href="#"><li>TESTIMONIALS</li></a>
-                    <a href="#team-lead"><li>PORTFOLIO</li></a>
-                    <a href="#contact"><li>CONTACTS</li></a>
+                    <li><a href="" class="selected">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">SERVICES</a></li>
+                    <li><a href="">TESTIMONIAL</a></li>
+                    <li><a href="">PORTFOLIO</a></li>
+                    <li><a href="">CONTACTS</a></li>
                 </ul>
-            </nav>
-            <div class="container-text">
-                <p>welcome to <br><b>XYZcompany</b></p>
             </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="header-text">
+            <h1>WELCOME TO <br><span>XYZCOMPANY</span></h1>
         </div>
-    </section>
+    </header>
+    <main>
 
-    <!--team lead section-->
+        <!-- our team -->
 
-    <section id="team-lead">
-        <h1>our team leaders</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat</p>
-        <div class="profile">
-            <div class="user red">
-                <img src="/img/147922816.jpg" alt="">
-                <h3>Hugo Silva</h3>
-                <div class="user-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</div>
+        <section id="Team">
+            <h2>OUR TEAM LEADERS</h2>
+            <p>Lorem ipsum dolor sit amet consectetur
+                 adipisicing elit. Vitae totam possimus
+                  aliquam <br> perspiciatis dolorem? Quo ab harum
+                   mollitia perferendis eos, est laboriosam 
+                   consequuntur nihil. <br> Perspiciatis quasi 
+                   nulla dolor accusamus quia?
+            </p>
+            <div class="row">
+                <div class="User-col">
+                    <img src="/img/147922816.jpg" alt="">
+                    <h3>Hugo Silva</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Vitae totam possimus
+                         aliquam Lorem ipsum dolor sit amet consectetur
+                         adipisicing elit.</p>
+                </div>
+                <div class="User-col">
+                    <img src="/img/148381568.jpg" alt="">
+                    <h3>Hugo Silva</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Vitae totam possimus
+                         aliquam Lorem ipsum dolor sit amet consectetur
+                         adipisicing elit.</p>
+                </div>
+                <div class="User-col">
+                    <img src="/img/149069696.jpg" alt="">
+                    <h3>Hugo Silva</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Vitae totam possimus
+                         aliquam Lorem ipsum dolor sit amet consectetur
+                         adipisicing elit.</p>
+                </div>
             </div>
-            <div class="user blue">
-                <img src="/img/148381568.jpg" alt="">
-                <h3>Imanol Arias</h3>
-                <div class="user-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</div>
-            </div>
-            <div class="user green">
-                <img src="/img/IMG_1518 Edited.jpg" alt="" height="535px">
-                <h3>Javier Bardem</h3>
-                <div class="user-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore</div>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <!--bar-info section-->
+        <!-- counter -->
 
-    <section id="bar-info">
-        <div class="info">
-            <h1>2500</h1>
-            <h3>HAPPY CLIENTS</h3>
-        </div>
-        <div class="info">
-            <h1>300</h1>
-            <h3>FULL NOTEBOOKS</h3>
-        </div>
-        <div class="info">
-            <h1>120</h1>
-            <h3>TEAMMATES</h3>
-        </div>
-        <div class="info">
-            <h1>30</h1>
-            <h3>STORES</h3>
-        </div>
-    </section>
+        <section id="counter">
+                <div class="row">
+                    <div class="num-col">
+                        <h1>2500</h1>
+                        <p>HAPPY CLIENTS</p>
+                    </div>
+                    <div class="num-col">
+                        <h1>300</h1>
+                        <p>FULL NOTEBOOKS</p>
+                    </div>
+                    <div class="num-col">
+                        <h1>120</h1>
+                        <p>TEAMMATES</p>
+                    </div>
+                    <div class="num-col">
+                        <h1>30</h1>
+                        <p>STORES</p>
+                    </div>
+                </div>
+        </section>
 
-    <div class="space">
-        <img src="/img/PLACE YOUR IMAGE HERE copy.png" alt="">
-    </div>
+        <!-- dot design -->
 
-    <!--contact section-->
+        <section id="dot">
+            <img src="/img/PLACE YOUR IMAGE HERE copy.png" alt="">
+        </section>
 
-    <section id="contact">
-        <div class="box">
+        <!-- contact -->
+
+        <section id="contact">
             <h1>CONTACT US</h1>
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
-            <p>accusantium doloremque laudantium, totam rem aperiam</p>
+            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem <br>
+                accusantium doloremque laudantium, totem rem aperiam
+            </p>
             <form action="">
-                <div class="form-sub">
-                    <input type="text" class="space" placeholder="Name" value="" required>
-                    <select name="Category" id="Category">
-                        <option value="none">Category</option>
-                        <option value=""></option>
-                        <option value=""></option>
-                        <option value=""></option>
+                <div class="sub-form">
+                    <input type="text" name="personal-info" placeholder="Name">
+                    <select name="cat" id="">
+                        <option value=" ">Category</option>
+                        <option value="lie">lie</option>
+                        <option value="show">show</option>
                     </select>
                 </div>
-                <div class="form-sub">
-                    <input type="tel" class="space" name="phone" id="phone" placeholder="Phone" min-length="6" max-length="16">
-                    <select name="City" id="City">
-                        <option value="none">City</option>
-                        <option value=""></option>
-                        <option value=""></option>
-                        <option value=""></option>
+                <div class="sub-form">
+                    <input type="tel" name="personal-info" placeholder="Phone">
+                    <select name="cat" id="">
+                        <option value=" ">Category</option>
+                        <option value="lie">lie</option>
+                        <option value="show">show</option>
                     </select>
                 </div>
-                <div class="form-sub">
-                    <input type="email" placeholder="Email">
-                </div>
-                <div class="form-sub">
-                    <textarea name="message" id="message" placeholder="Message"></textarea>
-                </div>
-                <button type="submit">Contact Us</button>
+                <input type="email" name="personal-info" id="" placeholder="E-mail">
+                <textarea name="personal-info" id="" placeholder="Message"></textarea>
+                <input type="submit" value="Contact us">
             </form>
-        </div>
-    </section>
+        </section>
 
-    <!--about section-->
+        <!-- about -->
 
-    <section id="about">
-         <div class="about-left-col">
-            <div class="color"></div>
-         </div>
-         <div class="about-right-col">
-            <div class="about-text">
-                <h2>About Us</h2>
-                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiams</p>
+        <section id="about">
+            <div class="row">
+                <div class="about-col">
+                    <img src="/img/pexels-reynaldo-brigworkz-brigantty-773297.jpg" class="rep">
+                </div>
+                <div class="about-text about-col">
+                    <h1>About Us</h1>
+                    <p>sed ut perspiciatis unde omnis iste natus error sit voluptatem <br>
+                         accusantium doloremque laudeantium, totem rem aperiam
+                    </p>
+                    <div class="row">
+                        <div class="user-about-col">
+                            <img src="/img/149069696.jpg" alt="">
+                            <h5>FRIENDLY TEAM</h5>
+                        </div>
+                        <div class="user-about-col">
+                            <img src="/img/149069696.jpg" alt="">
+                            <h5>INVOLVED</h5>
+                        </div>
+                        <div class="user-about-col">
+                            <img src="/img/149069696.jpg" alt="">
+                            <h5>24/7 ASSISTANCE</h5>
+                        </div>
+                    </div>
+                </div>
             </div>
-         </div>
-    </section>
+        </section>
 
-    <!--footer section-->
+        <!-- gallery -->
 
-    <section id="footer">
-            <div class="footer-row">
-                <div class="footer-left-col">
-                    <div class="left-text">
-                        <h4>content</h4><br>
-                        <a href=""><small>Lorem ipsum</small></a><br>
-                        <a href=""><small>dolo sit</small></a>
-                    </div>
-                    <div class="left-text">
-                        <h4>information</h4><br>
-                        <a href=""><small>lorem ipsum</small></a><br>
-                       <a href=""><small>onsectetur adipisicing</small></a>
-                    </div>
-                    <div class="left-text">
-                        <h4 class="adnormal">legal</h4><br>
-                        <a href=""><small>adipisicing elit</small></a><br>
-                        <a href=""><small>sed do eiusmod</small></a><br>
-                        <a href=""><small>tempor incidi</small></a>
-                    </div>
-                    <div class="left-text">
-                        <h4>help</h4><br>
-                        <a href=""><small>lorem ipsum</small></a><br>
-                        <a href=""><small>onsectetur adipisicing</small></a>
-                    </div>
+        <section id="slide">
+            <h1>OUR  GALLERY</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing
+                elit, sed do eiusmod <br> tempor incididunt ut labore et dolore magna aliqua.
+                 Ut enim ad minim veniam, <br> quis nostrud exericitation ullamco laboris nisi ut aliquip ex 
+                 ea commodo conse.
+            </p>
+            <div class="slide-scroll">
+                <div class="row">
+                    <div class="set-col"></div>
                 </div>
-                <div class="footer-right-col">
-                    <div class="contact">
-                        <p>3-4000-0000 <br>-6000-000-0000</p>
-                    </div>
-                    <div class="location">
-                        <p>67700 Dagenham St England, GB</p>
-                    </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="row">
+            <div class="footer-top-col">
+                <h4>CONTENT</h4>
+                <li>Lorem ipsum</li>
+                <li>dolore sit</li>
+            </div>
+            <div class="footer-top-col">
+                <h4>INFORMATION</h4>
+                <li>Lorem ipsum</li>
+                <li>Onsectetur adipisicing</li>
+            </div>
+            <div class="footer-top-col">
+                <h4>LEGAL</h4>
+                <li>Adipisicing</li>
+                <li>Sed do eiusmod</li>
+                <li>Tempor incidi</li>
+            </div>
+            <div class="footer-top-col">
+                <h4>HELP</h4>
+                <li>Lorem ipsum</li>
+                <li>Onsectetur adipisicing</li>
+            </div>
+            <div class="footer-top-col">
+                <div class="icon">
+                    <span>3-6000-000 <br> -6000-000-0000</span>
                 </div>
-            </div>  
-            <div class="footer-row copy-right">
-                <div class="copyright-text">
-                    <p>Copyright &copy;2019.</p>
-                    <p>XYZcompany All right reserved</p>
-                </div>   
-    </section>
+                <div class="icon">
+                    <span>67700 Dagenham St <br> England, GB</span>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="row">
+                <div class="copy">
+                    <p>Copyright &copy; 2019.XYZCOMPANY All right reserved</p>
+                </div>
+                <div class="social"></div>
+            </div>
+        </div>
+    </footer>
 
-    <script>
+    <!-- javascript scroll -->
 
+    <!-- <script>
         var scroll = new SmoothScroll('a[href*="#"]', {
              speed:500,
              speesAsDuration: true
          });
+    </script> -->
+    <script>
+        let navLink = document.getElementById("navlink");
+        function showMenu(){
+            navLink.style.right = "0"
+        }
+        function hideMenu() {
+            navLink.style.right = "-200px"
+        }
     </script>
 </body>
 </html>
